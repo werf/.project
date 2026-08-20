@@ -1,0 +1,20 @@
+# Maintainer roster for werf
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+
+#  Maintainers: Please connect your GitHub handle to your LFID on openprofile.dev to enable automatic access to CNCF resources. The system will use your primary email address for setup.
+maintainers:
+  - project_id: "werf"
+    org: "werf"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - alexey-igrychev
+          - distorhead
+          - ilya-lesikov
+          - Fral738
+          - nervgh
+          - odiora
+          - reyreavman
+          - drey
+          - dmmordvi
