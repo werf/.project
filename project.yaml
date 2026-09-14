@@ -2,7 +2,6 @@
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
 # TODO: Add adopters list (ADOPTERS.md)
-# TODO: Add package_managers if distributed via registries
 
 schema_version: "1.0.0"
 slug: "werf"
@@ -32,9 +31,8 @@ artwork: "https://landscape.cncf.io/logos/werf.svg"
 #   path: "https://github.com/werf/werf/blob/main/ADOPTERS.md"
 
 
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "werf/werf"
+package_managers:
+  docker: "registry.werf.io"
 
 social:
   twitter: "https://twitter.com/werf_io"
@@ -67,4 +65,3 @@ documentation:
 landscape:
   category: "App Definition and Development"
   subcategory: "Continuous Integration & Delivery"
-
