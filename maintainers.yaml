@@ -10,7 +10,6 @@ maintainers:
       - name: "project-maintainers"
         members:
           - alexey-igrychev
-          - distorhead
           - ilya-lesikov
           - Fral738
           - nervgh
