@@ -32,6 +32,7 @@ package_managers:
 
 social:
   twitter: "https://twitter.com/werf_io"
+  bluesky: "https://bsky.app/profile/werf.io"
 
 security:
   policy:
