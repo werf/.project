@@ -1,15 +1,13 @@
 # .project metadata for werf
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Add adopters list (ADOPTERS.md)
-
 schema_version: "1.0.0"
 slug: "werf"
 name: "werf"
 description: "werf is a solution for implementing efficient and consistent software delivery to Kubernetes. It covers the entire CI/CD lifecycle and all related artifacts, glues commonly used tools (Git, Docker/Buildah, Helm, K8s) and facilitates best practices."
 type: "project"
-project_lead: "alexey-igrychev" # TODO: AUTO-DETECTED — please verify
-slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+project_lead: "alexey-igrychev"
+slack_channels:
   - name: "#werf"
     link: "https://cloud-native.slack.com/messages/werf"
     primary: true
@@ -17,19 +15,17 @@ slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
 maturity_log:
   - phase: "sandbox"
     date: "2022-12-13T00:00:00Z"
-    issue: "https://github.com/cncf/sandbox/issues/203" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/sandbox/issues/203"
 
 repositories:
   - "https://github.com/werf/werf"
 
 website: "https://werf.io/"
 
-artwork: "https://landscape.cncf.io/logos/werf.svg"
+artwork: "https://werf.io/assets/images/werf-logo.svg"
 
-# TODO: Add ADOPTERS.md if your project tracks adopters
-# adopters:
-#   path: "https://github.com/werf/werf/blob/main/ADOPTERS.md"
-
+adopters:
+  path: "https://github.com/werf/werf/blob/main/ADOPTERS.md"
 
 package_managers:
   docker: "registry.werf.io"
@@ -53,8 +49,8 @@ legal:
   license:
     path: "https://github.com/werf/werf/blob/main/LICENSE"
   identity_type:
-    has_dco: true # AUTO-DETECTED — please verify
-    has_cla: false # AUTO-DETECTED — please verify
+    has_dco: true
+    has_cla: false
     dco_url:
       path: "https://developercertificate.org/"
 
