@@ -22,7 +22,7 @@ repositories:
 
 website: "https://werf.io/"
 
-artwork: "https://werf.io/assets/images/werf-logo.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/werf"
 
 adopters:
   path: "https://github.com/werf/werf/blob/main/ADOPTERS.md"
